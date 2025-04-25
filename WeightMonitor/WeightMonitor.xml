@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>console</headerType>
+  <jar>C:\Users\Asus\Desktop\MyApp\WeightMonitor\weightmonitor.jar</jar>
+  <outfile>C:\Users\Asus\Desktop\MyApp\WeightMonitor\WeightMonitor.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>true</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\Asus\Desktop\MyApp\WeightMonitor\icon.ico</icon>
+  <classPath>
+    <mainClass>com.weightmonitor.weightmonitor.HelloApplication</mainClass>
+    <cp>weightmonitor.jar</cp>
+    <cp>javafx.base.jar </cp>
+    <cp>javafx.controls.jar </cp>
+    <cp>javafx.fxml.jar </cp>
+    <cp>javafx.graphics.jar </cp>
+    <cp>javafx.media.jar </cp>
+    <cp>javafx.swing.jar </cp>
+    <cp>javafx.web.jar </cp>
+  </classPath>
+  <jre>
+    <path>./jre</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>23</minVersion>
+    <maxVersion></maxVersion>
+    <opt> --module-path lib --add-modules javafx.controls,javafx.fxml</opt>
+  </jre>
+</launch4jConfig>
